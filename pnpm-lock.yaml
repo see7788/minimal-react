@@ -94,8 +94,8 @@ importers:
         specifier: ^4.18.2
         version: 4.18.2
       ipc6267:
-        specifier: github:see7788/6267
-        version: github.com/see7788/6267/c44d52b018f5783b683b4d674b3e9daf3efdca21
+        specifier: github:see7788/6267#master
+        version: github.com/see7788/6267/0662097c8d6ce835cdb85dc1b3713127a90e5f99
       superjson:
         specifier: ^2.2.1
         version: 2.2.1
@@ -4966,6 +4966,30 @@ packages:
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==, tarball: https://registry.npmmirror.com/zod/-/zod-3.22.4.tgz}
+    dev: false
+
+  github.com/see7788/6267/0662097c8d6ce835cdb85dc1b3713127a90e5f99:
+    resolution: {tarball: https://codeload.github.com/see7788/6267/tar.gz/0662097c8d6ce835cdb85dc1b3713127a90e5f99}
+    name: ipc6267
+    version: 1.0.0
+    requiresBuild: true
+    dependencies:
+      aedes: 0.50.0
+      aedes-server-factory: 0.2.1
+      axios: 1.6.2
+      cookie-parser: 1.4.6
+      cors: 2.8.5
+      express: 4.18.2
+      mqtt: 5.3.3
+      mysql2: 3.6.5
+      superjson: 2.2.1
+      ws: 8.14.2
+      zod: 3.22.4
+    transitivePeerDependencies:
+      - bufferutil
+      - debug
+      - supports-color
+      - utf-8-validate
     dev: false
 
   github.com/see7788/6267/c44d52b018f5783b683b4d674b3e9daf3efdca21:
