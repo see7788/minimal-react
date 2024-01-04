@@ -1,5 +1,5 @@
 import cors from 'cors';
-// import {ipcTest} from "ipc/node"
+// import {ipcTest} from "ipc6267/node"
 import { expressContext } from "./routes/tool/trpc"
 import { expressRouter } from "./routes"
 import * as config from "./config"
